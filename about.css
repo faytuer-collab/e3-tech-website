@@ -12,10 +12,10 @@
 .about-story{padding-bottom:150px}
 .story-heading{display:grid;grid-template-columns:.38fr 1.15fr;gap:6vw;border-top:1px solid var(--line);padding-top:24px}
 .story-heading h2{font-size:clamp(44px,5.2vw,78px);font-weight:400;line-height:1;letter-spacing:-.052em;max-width:980px;margin:0}
-.story-copy{display:grid;grid-template-columns:.7fr 1.3fr;gap:6vw;margin-top:88px;margin-left:calc(38% + 2.2vw)}
+.story-copy{display:grid;grid-template-columns:.7fr 1.3fr;gap:6vw;margin-top:88px;margin-left:0}
 .story-lead{font-size:25px;line-height:1.38;letter-spacing:-.025em;margin:0}
 .story-columns{display:grid;grid-template-columns:1fr 1fr;gap:34px}
-.story-columns p{font-size:15px;line-height:1.72;margin:0;color:var(--grey)}
+.story-columns p{font-size:15px;line-height:1.72;margin:0;color:var(--grey)}\n.about-copy p,.story-copy p,.company-lines p,.brand-copy p,.belief-title>p,.system-detail-grid p,.standard-cards p,.delivery-grid p,.delivery-note{text-align:left}
 .company-lines{margin-top:100px;border-top:1px solid var(--line)}
 .company-lines>div{display:grid;grid-template-columns:70px .45fr 1fr;gap:28px;align-items:start;padding:24px 0 28px;border-bottom:1px solid var(--line)}
 .company-lines span{font-size:11px;letter-spacing:.12em;color:var(--grey)}

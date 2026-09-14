@@ -1,0 +1,34 @@
+.process-page{background:var(--paper)}
+.process-page .site-header{color:var(--ink);background:rgba(243,241,235,.96);border-color:var(--line);backdrop-filter:blur(12px)}
+.process-page .site-header .brand-logo img{filter:brightness(0)}
+.process-page .desktop-nav a[aria-current="page"]:after{right:0}
+.process-intro{min-height:615px;padding-top:210px;padding-bottom:90px;display:grid;grid-template-columns:.52fr 1.48fr;column-gap:6vw;align-content:start}
+.process-intro .eyebrow{grid-column:1/-1;margin-bottom:34px}
+.process-intro h1{font-size:clamp(60px,7.4vw,118px);font-weight:400;line-height:.88;letter-spacing:-.065em;margin:0}
+.process-lead{max-width:760px;font-size:clamp(23px,2.25vw,35px);line-height:1.34;letter-spacing:-.035em;margin:6px 0 0}
+.process-stage{display:grid;grid-template-columns:1fr 1fr;min-height:780px;background:#161b17;color:#fff;border-top:1px solid rgba(255,255,255,.18)}
+.process-visual{position:relative;margin:0;min-height:780px;overflow:hidden;background:#ded9cf}
+.process-visual:after{content:"";position:absolute;z-index:1;top:0;right:-1px;width:clamp(96px,12vw,190px);height:100%;pointer-events:none;background:linear-gradient(90deg,rgba(22,27,23,0),#161b17)}
+.process-visual img{object-position:center}
+.process-plan img{object-fit:contain}
+.process-consultation img{object-position:57% center}
+.process-documentation img{object-position:center 44%}
+.process-site-preparation img{object-position:center 58%}
+.process-handover img{object-position:43% center}
+.process-panel{padding:clamp(54px,6vw,96px);display:flex;flex-direction:column;min-width:0}
+.stage-index{font-size:12px;letter-spacing:.16em;color:var(--orange);margin:0 0 auto}
+.process-panel h2{font-size:clamp(38px,3.7vw,60px);font-weight:400;line-height:.98;letter-spacing:-.05em;margin:48px 0 38px;color:#fff}
+.process-panel ul{list-style:none;padding:0;margin:0;display:grid;gap:17px;max-width:590px}
+.process-panel li{position:relative;padding-left:24px;font-size:17px;line-height:1.45}
+.process-panel li:before{content:"";position:absolute;left:0;top:.64em;width:6px;height:6px;border-radius:50%;background:var(--orange)}
+.process-panel li small{display:block;color:rgba(255,255,255,.52);font-size:14px;line-height:1.45;margin-top:4px}
+.stage-time{margin-top:auto;padding-top:52px;border-top:1px solid rgba(255,255,255,.22);display:flex;align-items:flex-start;gap:14px;color:var(--orange)}
+.stage-time svg{width:25px;height:25px;fill:none;stroke:currentColor;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round;flex:0 0 auto}
+.stage-time span{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:6px}
+.stage-time strong{display:block;font-size:26px;font-weight:400;line-height:1}
+.process-note{padding-top:125px;padding-bottom:135px}
+.process-note>div{display:grid;grid-template-columns:1.25fr .75fr;gap:8vw;align-items:end}
+.process-note h2{font-size:clamp(56px,6.2vw,96px);font-weight:400;line-height:.96;letter-spacing:-.06em;margin:0}
+.process-note>div p{font-size:17px;line-height:1.75;margin:0 0 8px}
+@media(max-width:900px){.process-intro{grid-template-columns:1fr;min-height:570px;padding-top:170px}.process-intro h1{margin-bottom:40px}.process-lead{font-size:25px;max-width:680px}.process-stage{grid-template-columns:1fr;min-height:0}.process-visual{min-height:0;height:62vw}.process-visual:after{top:auto;right:0;bottom:-1px;width:100%;height:32%;background:linear-gradient(180deg,rgba(22,27,23,0),#161b17)}.process-panel{min-height:610px;padding:55px var(--pad)}.stage-index{margin-bottom:50px}.process-panel h2{margin-top:0}.process-note>div{grid-template-columns:1fr 1fr}.desktop-nav{gap:23px}}
+@media(max-width:600px){.process-intro{min-height:610px;padding-top:145px;padding-bottom:72px}.process-intro .eyebrow{margin-bottom:28px}.process-intro h1{font-size:62px}.process-lead{font-size:20px;line-height:1.42}.process-visual{height:76vw}.process-panel{min-height:570px;padding:38px var(--pad) 42px}.stage-index{margin-bottom:42px}.process-panel h2{font-size:41px;margin-bottom:30px}.process-panel li{font-size:16px;padding-left:20px}.stage-time{padding-top:34px}.process-note{padding-top:82px;padding-bottom:90px}.process-note>div{grid-template-columns:1fr;gap:34px}.process-note h2{font-size:52px}.process-note>div p{font-size:16px}}

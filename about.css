@@ -16,14 +16,36 @@
 .story-lead{font-size:25px;line-height:1.38;letter-spacing:-.025em;margin:0}
 .story-columns{display:grid;grid-template-columns:1fr 1fr;gap:34px}
 .story-columns p{font-size:15px;line-height:1.72;margin:0;color:var(--grey)}
+.company-lines{margin-top:100px;border-top:1px solid var(--line)}
+.company-lines>div{display:grid;grid-template-columns:70px .45fr 1fr;gap:28px;align-items:start;padding:24px 0 28px;border-bottom:1px solid var(--line)}
+.company-lines span{font-size:11px;letter-spacing:.12em;color:var(--grey)}
+.company-lines strong{font-size:26px;font-weight:400;letter-spacing:-.03em}
+.company-lines p{font-size:15px;line-height:1.6;color:var(--grey);max-width:540px;margin:2px 0 0}
 .about-brand{background:#deddd7;padding-top:118px;padding-bottom:122px;display:grid;grid-template-columns:.35fr 1fr .75fr;gap:5vw;position:relative}
 .brand-number{font-size:11px;letter-spacing:.12em;text-transform:uppercase}
 .brand-statement h2{font-size:clamp(46px,5.7vw,86px);font-weight:400;line-height:.98;letter-spacing:-.055em;max-width:860px;margin:0}
 .brand-copy{padding-top:43px}
 .brand-copy p{font-size:16px;line-height:1.72;margin:0 0 24px}
-.brand-uses{grid-column:2/4;display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid rgba(0,0,0,.25);margin-top:72px}
-.brand-uses span{font-size:13px;letter-spacing:.08em;text-transform:uppercase;padding:20px 22px 0 0}
-.brand-uses span+span{border-left:1px solid rgba(0,0,0,.25);padding-left:22px}
+.brand-facts{grid-column:2/4;display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid rgba(0,0,0,.25);margin:72px 0 0}
+.brand-facts div{padding:18px 24px 24px 0}
+.brand-facts div+div{border-left:1px solid rgba(0,0,0,.25);padding-left:24px}
+.brand-facts dt{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--grey);margin-bottom:28px}
+.brand-facts dd{font-size:22px;line-height:1.2;letter-spacing:-.025em;margin:0}
+.brand-uses{grid-column:2/4;display:grid;grid-template-columns:.6fr repeat(3,1fr);border-top:1px solid rgba(0,0,0,.25)}
+.brand-uses small,.brand-uses span{font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:18px 22px 0 0}
+.brand-uses small{color:var(--grey)}
+.brand-uses span{border-left:1px solid rgba(0,0,0,.25);padding-left:22px}
+.about-belief{background:var(--orange);color:#111;padding-top:36px;padding-bottom:112px}
+.belief-kicker{display:flex;justify-content:space-between;align-items:start;border-top:1px solid rgba(0,0,0,.3);padding-top:18px}
+.belief-kicker .eyebrow{margin:0}
+.belief-kicker>span{font-size:11px;letter-spacing:.12em;text-transform:uppercase}
+.belief-title{display:grid;grid-template-columns:1.42fr .58fr;gap:6vw;align-items:end;margin:76px 0 96px}
+.belief-title h2{font-size:clamp(108px,14.2vw,218px);font-weight:400;line-height:.73;letter-spacing:-.075em;margin:0}
+.belief-title>p{font-size:20px;line-height:1.55;max-width:480px;margin:0 0 4px}
+.belief-list{border-top:1px solid rgba(0,0,0,.35)}
+.belief-list article{display:grid;grid-template-columns:70px .32fr 1fr;gap:28px;align-items:start;border-bottom:1px solid rgba(0,0,0,.35);padding:24px 0 30px}
+.belief-list span,.belief-list p{font-size:11px;letter-spacing:.12em;text-transform:uppercase;margin:0}
+.belief-list h3{font-size:clamp(25px,2.5vw,38px);font-weight:400;line-height:1.12;letter-spacing:-.035em;max-width:760px;margin:0}
 .about-system-detail{background:#171916;color:#fff;padding-top:130px;padding-bottom:130px}
 .system-detail-heading{display:grid;grid-template-columns:.4fr 1fr;gap:6vw;align-items:start;margin-bottom:90px}
 .system-detail-heading h2{font-size:clamp(54px,6.8vw,104px);font-weight:400;line-height:.9;letter-spacing:-.06em;margin:0}
@@ -47,14 +69,6 @@
 .standard-cards h3{font-size:27px;font-weight:400;letter-spacing:-.035em;margin:0 0 10px}
 .standard-cards p{font-size:13px;line-height:1.55;color:var(--grey);max-width:310px;margin:0}
 .standard-featured p{color:rgba(0,0,0,.65)}
-.about-belief{background:#171916;color:#fff;padding-top:130px;padding-bottom:130px}
-.belief-heading{display:grid;grid-template-columns:.48fr 1fr .72fr;gap:5vw;align-items:start;margin-bottom:96px}
-.belief-heading h2{font-size:clamp(58px,7.5vw,118px);font-weight:400;line-height:.86;letter-spacing:-.06em;margin:0}
-.belief-heading>p:last-child{color:rgba(255,255,255,.62);font-size:17px;line-height:1.7;padding-top:5px}
-.belief-list article{display:grid;grid-template-columns:80px 1fr;align-items:start;border-top:1px solid rgba(255,255,255,.25);padding:30px 0 36px}
-.belief-list article:last-child{border-bottom:1px solid rgba(255,255,255,.25)}
-.belief-list span{font-size:11px;color:rgba(255,255,255,.5)}
-.belief-list h3{font-size:clamp(30px,3.5vw,54px);font-weight:400;line-height:1.08;letter-spacing:-.04em;max-width:940px;margin:0}
 .about-delivery{padding-top:145px;padding-bottom:140px}
 .about-delivery>.eyebrow{border-top:1px solid var(--line);padding-top:24px}
 .delivery-grid{display:grid;grid-template-columns:1.1fr .72fr;gap:10vw;align-items:end}
@@ -68,6 +82,6 @@
 .delivery-facts strong{font-size:82px;font-weight:400;line-height:.78;color:var(--orange);letter-spacing:-.06em}
 .delivery-facts span{text-transform:uppercase;font-size:11px;letter-spacing:.12em;line-height:1.5}
 .delivery-note{font-size:11px;color:var(--grey);margin:18px 0 0}
-@media(max-width:1000px){.about-intro-grid{grid-template-columns:1fr;gap:52px}.about-copy{max-width:760px}.story-copy{margin-left:0;grid-template-columns:.7fr 1.3fr}.about-brand{grid-template-columns:.3fr 1fr}.brand-copy{grid-column:2}.brand-uses{grid-column:2}.belief-heading{grid-template-columns:1fr;gap:22px}.belief-heading>p:last-child{max-width:620px}.delivery-grid{grid-template-columns:1fr;gap:45px}.delivery-grid>div{max-width:620px}}
-@media(max-width:900px){.about-page{padding-top:72px}.about-hero{padding-bottom:100px}.story-heading,.system-detail-heading{grid-template-columns:1fr;gap:24px}.story-copy{grid-template-columns:1fr;margin-top:58px}.about-brand{grid-template-columns:1fr}.brand-copy,.brand-uses{grid-column:1}.brand-uses{margin-top:36px}.system-detail-grid{grid-template-columns:1fr}.system-detail-grid article{padding:28px 0 38px}.system-detail-grid article+article{border-left:0;border-top:1px solid rgba(255,255,255,.25);padding-left:0}.system-detail-grid h3{margin-top:42px}.standard-cards{grid-template-columns:1fr}.standard-cards article{min-height:300px;border-right:0;border-bottom:1px solid var(--line)}.standard-cards article:last-child{border-bottom:0}.standard-cards svg{margin:52px auto}.delivery-facts{grid-template-columns:1fr}.delivery-facts>div+div{border-left:0;border-top:1px solid var(--line);padding-left:0}}
-@media(max-width:600px){.about-intro{padding-top:70px;padding-bottom:45px}.about-intro h1{font-size:52px}.about-copy{grid-template-columns:1fr;gap:22px}.about-copy p{font-size:16px}.about-hero{height:350px;padding-left:0;padding-right:0;padding-bottom:82px}.about-hero img{object-position:center center}.about-story{padding-bottom:90px}.story-heading h2{font-size:44px}.story-copy{margin-top:44px}.story-lead{font-size:22px}.story-columns{grid-template-columns:1fr;gap:22px}.story-columns p{font-size:16px}.about-brand{padding-top:80px;padding-bottom:82px}.brand-statement h2{font-size:44px}.brand-copy{padding-top:18px}.brand-uses{grid-template-columns:1fr}.brand-uses span{padding:15px 0}.brand-uses span+span{border-left:0;border-top:1px solid rgba(0,0,0,.25);padding-left:0}.about-system-detail{padding-top:84px;padding-bottom:84px}.system-detail-heading{margin-bottom:58px}.system-detail-heading h2{font-size:50px}.system-detail-grid h3{font-size:28px}.about-standards{padding-bottom:90px}.about-section-heading{text-align:left;margin-bottom:42px}.about-section-heading h2{font-size:46px}.standard-cards article{min-height:280px}.about-belief{padding-top:84px;padding-bottom:84px}.belief-heading{margin-bottom:58px}.belief-heading h2{font-size:62px}.belief-list article{grid-template-columns:42px 1fr;padding:24px 0 28px}.belief-list h3{font-size:30px}.about-delivery{padding-top:90px;padding-bottom:88px}.delivery-grid h2{font-size:62px}.delivery-grid p{font-size:16px}.delivery-facts{margin-top:72px}.delivery-facts strong{font-size:72px}}
+@media(max-width:1000px){.about-intro-grid{grid-template-columns:1fr;gap:52px}.about-copy{max-width:760px}.story-copy{margin-left:0;grid-template-columns:.7fr 1.3fr}.about-brand{grid-template-columns:.3fr 1fr}.brand-copy{grid-column:2}.brand-facts,.brand-uses{grid-column:2}.belief-title{grid-template-columns:1fr;gap:50px}.belief-title>p{max-width:620px}.delivery-grid{grid-template-columns:1fr;gap:45px}.delivery-grid>div{max-width:620px}}
+@media(max-width:900px){.about-page{padding-top:72px}.about-hero{padding-bottom:100px}.story-heading,.system-detail-heading{grid-template-columns:1fr;gap:24px}.story-copy{grid-template-columns:1fr;margin-top:58px}.about-brand{grid-template-columns:1fr}.brand-copy,.brand-facts,.brand-uses{grid-column:1}.brand-facts{grid-template-columns:1fr 1fr}.brand-facts div:nth-child(3){border-left:0;border-top:1px solid rgba(0,0,0,.25)}.brand-uses{margin-top:36px}.belief-title h2{font-size:17vw}.system-detail-grid{grid-template-columns:1fr}.system-detail-grid article{padding:28px 0 38px}.system-detail-grid article+article{border-left:0;border-top:1px solid rgba(255,255,255,.25);padding-left:0}.system-detail-grid h3{margin-top:42px}.standard-cards{grid-template-columns:1fr}.standard-cards article{min-height:300px;border-right:0;border-bottom:1px solid var(--line)}.standard-cards article:last-child{border-bottom:0}.standard-cards svg{margin:52px auto}.delivery-facts{grid-template-columns:1fr}.delivery-facts>div+div{border-left:0;border-top:1px solid var(--line);padding-left:0}}
+@media(max-width:600px){.about-intro{padding-top:70px;padding-bottom:45px}.about-intro h1{font-size:52px}.about-copy{grid-template-columns:1fr;gap:22px}.about-copy p{font-size:16px}.about-hero{height:350px;padding-left:0;padding-right:0;padding-bottom:82px}.about-hero img{object-position:center center}.about-story{padding-bottom:90px}.story-heading h2{font-size:44px}.story-copy{margin-top:44px}.story-lead{font-size:22px}.story-columns{grid-template-columns:1fr;gap:22px}.story-columns p{font-size:16px}.company-lines{margin-top:64px}.company-lines>div{grid-template-columns:42px 1fr;gap:12px}.company-lines p{grid-column:2}.about-brand{padding-top:80px;padding-bottom:82px}.brand-statement h2{font-size:44px}.brand-copy{padding-top:18px}.brand-facts{grid-template-columns:1fr}.brand-facts div+div,.brand-facts div:nth-child(3){border-left:0;border-top:1px solid rgba(0,0,0,.25);padding-left:0}.brand-uses{grid-template-columns:1fr}.brand-uses small,.brand-uses span{padding:15px 0}.brand-uses span{border-left:0;border-top:1px solid rgba(0,0,0,.25);padding-left:0}.about-belief{padding-top:26px;padding-bottom:78px}.belief-kicker>span{display:none}.belief-title{margin:58px 0 66px;gap:34px}.belief-title h2{font-size:23vw;line-height:.77}.belief-title>p{font-size:17px}.belief-list article{grid-template-columns:42px 1fr;gap:12px;padding:20px 0 24px}.belief-list article p,.belief-list h3{grid-column:2}.belief-list h3{font-size:27px}.about-system-detail{padding-top:84px;padding-bottom:84px}.system-detail-heading{margin-bottom:58px}.system-detail-heading h2{font-size:50px}.system-detail-grid h3{font-size:28px}.about-standards{padding-bottom:90px}.about-section-heading{text-align:left;margin-bottom:42px}.about-section-heading h2{font-size:46px}.standard-cards article{min-height:280px}.about-delivery{padding-top:90px;padding-bottom:88px}.delivery-grid h2{font-size:62px}.delivery-grid p{font-size:16px}.delivery-facts{margin-top:72px}.delivery-facts strong{font-size:72px}}

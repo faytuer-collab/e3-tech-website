@@ -9,6 +9,30 @@
 .about-copy p{font-size:15px;line-height:1.7;margin:0}
 .about-hero{height:clamp(420px,49vw,720px);padding-bottom:150px}
 .about-hero img{object-position:center center}
+.about-story{padding-bottom:150px}
+.story-heading{display:grid;grid-template-columns:.38fr 1.15fr;gap:6vw;border-top:1px solid var(--line);padding-top:24px}
+.story-heading h2{font-size:clamp(44px,5.2vw,78px);font-weight:400;line-height:1;letter-spacing:-.052em;max-width:980px;margin:0}
+.story-copy{display:grid;grid-template-columns:.7fr 1.3fr;gap:6vw;margin-top:88px;margin-left:calc(38% + 2.2vw)}
+.story-lead{font-size:25px;line-height:1.38;letter-spacing:-.025em;margin:0}
+.story-columns{display:grid;grid-template-columns:1fr 1fr;gap:34px}
+.story-columns p{font-size:15px;line-height:1.72;margin:0;color:var(--grey)}
+.about-brand{background:#deddd7;padding-top:118px;padding-bottom:122px;display:grid;grid-template-columns:.35fr 1fr .75fr;gap:5vw;position:relative}
+.brand-number{font-size:11px;letter-spacing:.12em;text-transform:uppercase}
+.brand-statement h2{font-size:clamp(46px,5.7vw,86px);font-weight:400;line-height:.98;letter-spacing:-.055em;max-width:860px;margin:0}
+.brand-copy{padding-top:43px}
+.brand-copy p{font-size:16px;line-height:1.72;margin:0 0 24px}
+.brand-uses{grid-column:2/4;display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid rgba(0,0,0,.25);margin-top:72px}
+.brand-uses span{font-size:13px;letter-spacing:.08em;text-transform:uppercase;padding:20px 22px 0 0}
+.brand-uses span+span{border-left:1px solid rgba(0,0,0,.25);padding-left:22px}
+.about-system-detail{background:#171916;color:#fff;padding-top:130px;padding-bottom:130px}
+.system-detail-heading{display:grid;grid-template-columns:.4fr 1fr;gap:6vw;align-items:start;margin-bottom:90px}
+.system-detail-heading h2{font-size:clamp(54px,6.8vw,104px);font-weight:400;line-height:.9;letter-spacing:-.06em;margin:0}
+.system-detail-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid rgba(255,255,255,.25)}
+.system-detail-grid article{padding:28px 38px 10px 0}
+.system-detail-grid article+article{border-left:1px solid rgba(255,255,255,.25);padding-left:38px}
+.system-detail-grid span{font-size:11px;color:var(--orange);letter-spacing:.12em}
+.system-detail-grid h3{font-size:30px;font-weight:400;letter-spacing:-.035em;margin:72px 0 18px}
+.system-detail-grid p{font-size:15px;line-height:1.7;color:rgba(255,255,255,.62);max-width:380px;margin:0}
 .about-standards{padding-bottom:150px}
 .about-section-heading{text-align:center;max-width:790px;margin:0 auto 72px}
 .about-section-heading .eyebrow{margin-bottom:26px}
@@ -37,12 +61,13 @@
 .delivery-grid h2{font-size:clamp(58px,7.5vw,118px);font-weight:400;line-height:.88;letter-spacing:-.06em;margin:0}
 .delivery-grid>div{max-width:520px;padding-bottom:8px}
 .delivery-grid p{font-size:18px;line-height:1.7;margin-bottom:34px}
+.delivery-grid p+p{margin-top:-12px}
 .delivery-facts{display:grid;grid-template-columns:repeat(3,1fr);margin-top:110px;border-top:1px solid var(--line)}
 .delivery-facts>div{display:flex;gap:22px;align-items:flex-start;padding:30px 24px 38px 0}
 .delivery-facts>div+div{border-left:1px solid var(--line);padding-left:34px}
 .delivery-facts strong{font-size:82px;font-weight:400;line-height:.78;color:var(--orange);letter-spacing:-.06em}
 .delivery-facts span{text-transform:uppercase;font-size:11px;letter-spacing:.12em;line-height:1.5}
 .delivery-note{font-size:11px;color:var(--grey);margin:18px 0 0}
-@media(max-width:1000px){.about-intro-grid{grid-template-columns:1fr;gap:52px}.about-copy{max-width:760px}.belief-heading{grid-template-columns:1fr;gap:22px}.belief-heading>p:last-child{max-width:620px}.delivery-grid{grid-template-columns:1fr;gap:45px}.delivery-grid>div{max-width:620px}}
-@media(max-width:900px){.about-page{padding-top:72px}.about-hero{padding-bottom:100px}.standard-cards{grid-template-columns:1fr}.standard-cards article{min-height:300px;border-right:0;border-bottom:1px solid var(--line)}.standard-cards article:last-child{border-bottom:0}.standard-cards svg{margin:52px auto}.delivery-facts{grid-template-columns:1fr}.delivery-facts>div+div{border-left:0;border-top:1px solid var(--line);padding-left:0}}
-@media(max-width:600px){.about-intro{padding-top:70px;padding-bottom:45px}.about-intro h1{font-size:56px}.about-copy{grid-template-columns:1fr;gap:22px}.about-copy p{font-size:16px}.about-hero{height:350px;padding-left:0;padding-right:0;padding-bottom:82px}.about-hero img{object-position:center center}.about-standards{padding-bottom:90px}.about-section-heading{text-align:left;margin-bottom:42px}.about-section-heading h2{font-size:46px}.standard-cards article{min-height:280px}.about-belief{padding-top:84px;padding-bottom:84px}.belief-heading{margin-bottom:58px}.belief-heading h2{font-size:62px}.belief-list article{grid-template-columns:42px 1fr;padding:24px 0 28px}.belief-list h3{font-size:30px}.about-delivery{padding-top:90px;padding-bottom:88px}.delivery-grid h2{font-size:62px}.delivery-grid p{font-size:16px}.delivery-facts{margin-top:72px}.delivery-facts strong{font-size:72px}}
+@media(max-width:1000px){.about-intro-grid{grid-template-columns:1fr;gap:52px}.about-copy{max-width:760px}.story-copy{margin-left:0;grid-template-columns:.7fr 1.3fr}.about-brand{grid-template-columns:.3fr 1fr}.brand-copy{grid-column:2}.brand-uses{grid-column:2}.belief-heading{grid-template-columns:1fr;gap:22px}.belief-heading>p:last-child{max-width:620px}.delivery-grid{grid-template-columns:1fr;gap:45px}.delivery-grid>div{max-width:620px}}
+@media(max-width:900px){.about-page{padding-top:72px}.about-hero{padding-bottom:100px}.story-heading,.system-detail-heading{grid-template-columns:1fr;gap:24px}.story-copy{grid-template-columns:1fr;margin-top:58px}.about-brand{grid-template-columns:1fr}.brand-copy,.brand-uses{grid-column:1}.brand-uses{margin-top:36px}.system-detail-grid{grid-template-columns:1fr}.system-detail-grid article{padding:28px 0 38px}.system-detail-grid article+article{border-left:0;border-top:1px solid rgba(255,255,255,.25);padding-left:0}.system-detail-grid h3{margin-top:42px}.standard-cards{grid-template-columns:1fr}.standard-cards article{min-height:300px;border-right:0;border-bottom:1px solid var(--line)}.standard-cards article:last-child{border-bottom:0}.standard-cards svg{margin:52px auto}.delivery-facts{grid-template-columns:1fr}.delivery-facts>div+div{border-left:0;border-top:1px solid var(--line);padding-left:0}}
+@media(max-width:600px){.about-intro{padding-top:70px;padding-bottom:45px}.about-intro h1{font-size:52px}.about-copy{grid-template-columns:1fr;gap:22px}.about-copy p{font-size:16px}.about-hero{height:350px;padding-left:0;padding-right:0;padding-bottom:82px}.about-hero img{object-position:center center}.about-story{padding-bottom:90px}.story-heading h2{font-size:44px}.story-copy{margin-top:44px}.story-lead{font-size:22px}.story-columns{grid-template-columns:1fr;gap:22px}.story-columns p{font-size:16px}.about-brand{padding-top:80px;padding-bottom:82px}.brand-statement h2{font-size:44px}.brand-copy{padding-top:18px}.brand-uses{grid-template-columns:1fr}.brand-uses span{padding:15px 0}.brand-uses span+span{border-left:0;border-top:1px solid rgba(0,0,0,.25);padding-left:0}.about-system-detail{padding-top:84px;padding-bottom:84px}.system-detail-heading{margin-bottom:58px}.system-detail-heading h2{font-size:50px}.system-detail-grid h3{font-size:28px}.about-standards{padding-bottom:90px}.about-section-heading{text-align:left;margin-bottom:42px}.about-section-heading h2{font-size:46px}.standard-cards article{min-height:280px}.about-belief{padding-top:84px;padding-bottom:84px}.belief-heading{margin-bottom:58px}.belief-heading h2{font-size:62px}.belief-list article{grid-template-columns:42px 1fr;padding:24px 0 28px}.belief-list h3{font-size:30px}.about-delivery{padding-top:90px;padding-bottom:88px}.delivery-grid h2{font-size:62px}.delivery-grid p{font-size:16px}.delivery-facts{margin-top:72px}.delivery-facts strong{font-size:72px}}

@@ -1,0 +1,48 @@
+.about-page{padding-top:92px}
+.about-page .site-header{color:var(--ink);background:rgba(243,241,235,.96);border-color:var(--line)}
+.about-page .site-header .brand-logo img{filter:brightness(0)}
+.about-intro{padding-top:94px;padding-bottom:72px}
+.about-intro>.eyebrow{border-top:1px solid var(--line);padding-top:22px}
+.about-intro-grid{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(420px,.88fr);gap:8vw;align-items:end}
+.about-intro h1{font-size:clamp(60px,7.2vw,116px);font-weight:400;line-height:.9;letter-spacing:-.065em;margin:0}
+.about-copy{display:grid;grid-template-columns:1fr 1fr;gap:32px;padding-bottom:5px}
+.about-copy p{font-size:15px;line-height:1.7;margin:0}
+.about-hero{height:clamp(420px,49vw,720px);padding-bottom:150px}
+.about-hero img{object-position:center center}
+.about-standards{padding-bottom:150px}
+.about-section-heading{text-align:center;max-width:790px;margin:0 auto 72px}
+.about-section-heading .eyebrow{margin-bottom:26px}
+.about-section-heading h2{font-size:clamp(46px,5.6vw,86px);font-weight:400;line-height:.98;letter-spacing:-.055em;margin:0 0 24px}
+.about-section-heading>p:last-child{max-width:580px;margin:0 auto;color:var(--grey);line-height:1.7}
+.standard-cards{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line)}
+.standard-cards article{min-height:360px;padding:24px 24px 28px;display:flex;flex-direction:column;border-right:1px solid var(--line)}
+.standard-cards article:last-child{border-right:0}
+.standard-cards .standard-featured{background:var(--orange);color:#111;border-color:rgba(0,0,0,.2)}
+.standard-index{font-size:11px;letter-spacing:.12em}
+.standard-cards svg{width:62px;height:62px;margin:auto auto 50px;fill:none;stroke:currentColor;stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round;opacity:.78}
+.standard-cards h3{font-size:27px;font-weight:400;letter-spacing:-.035em;margin:0 0 10px}
+.standard-cards p{font-size:13px;line-height:1.55;color:var(--grey);max-width:310px;margin:0}
+.standard-featured p{color:rgba(0,0,0,.65)}
+.about-belief{background:#171916;color:#fff;padding-top:130px;padding-bottom:130px}
+.belief-heading{display:grid;grid-template-columns:.48fr 1fr .72fr;gap:5vw;align-items:start;margin-bottom:96px}
+.belief-heading h2{font-size:clamp(58px,7.5vw,118px);font-weight:400;line-height:.86;letter-spacing:-.06em;margin:0}
+.belief-heading>p:last-child{color:rgba(255,255,255,.62);font-size:17px;line-height:1.7;padding-top:5px}
+.belief-list article{display:grid;grid-template-columns:80px 1fr;align-items:start;border-top:1px solid rgba(255,255,255,.25);padding:30px 0 36px}
+.belief-list article:last-child{border-bottom:1px solid rgba(255,255,255,.25)}
+.belief-list span{font-size:11px;color:rgba(255,255,255,.5)}
+.belief-list h3{font-size:clamp(30px,3.5vw,54px);font-weight:400;line-height:1.08;letter-spacing:-.04em;max-width:940px;margin:0}
+.about-delivery{padding-top:145px;padding-bottom:140px}
+.about-delivery>.eyebrow{border-top:1px solid var(--line);padding-top:24px}
+.delivery-grid{display:grid;grid-template-columns:1.1fr .72fr;gap:10vw;align-items:end}
+.delivery-grid h2{font-size:clamp(58px,7.5vw,118px);font-weight:400;line-height:.88;letter-spacing:-.06em;margin:0}
+.delivery-grid>div{max-width:520px;padding-bottom:8px}
+.delivery-grid p{font-size:18px;line-height:1.7;margin-bottom:34px}
+.delivery-facts{display:grid;grid-template-columns:repeat(3,1fr);margin-top:110px;border-top:1px solid var(--line)}
+.delivery-facts>div{display:flex;gap:22px;align-items:flex-start;padding:30px 24px 38px 0}
+.delivery-facts>div+div{border-left:1px solid var(--line);padding-left:34px}
+.delivery-facts strong{font-size:82px;font-weight:400;line-height:.78;color:var(--orange);letter-spacing:-.06em}
+.delivery-facts span{text-transform:uppercase;font-size:11px;letter-spacing:.12em;line-height:1.5}
+.delivery-note{font-size:11px;color:var(--grey);margin:18px 0 0}
+@media(max-width:1000px){.about-intro-grid{grid-template-columns:1fr;gap:52px}.about-copy{max-width:760px}.belief-heading{grid-template-columns:1fr;gap:22px}.belief-heading>p:last-child{max-width:620px}.delivery-grid{grid-template-columns:1fr;gap:45px}.delivery-grid>div{max-width:620px}}
+@media(max-width:900px){.about-page{padding-top:72px}.about-hero{padding-bottom:100px}.standard-cards{grid-template-columns:1fr}.standard-cards article{min-height:300px;border-right:0;border-bottom:1px solid var(--line)}.standard-cards article:last-child{border-bottom:0}.standard-cards svg{margin:52px auto}.delivery-facts{grid-template-columns:1fr}.delivery-facts>div+div{border-left:0;border-top:1px solid var(--line);padding-left:0}}
+@media(max-width:600px){.about-intro{padding-top:70px;padding-bottom:45px}.about-intro h1{font-size:56px}.about-copy{grid-template-columns:1fr;gap:22px}.about-copy p{font-size:16px}.about-hero{height:350px;padding-left:0;padding-right:0;padding-bottom:82px}.about-hero img{object-position:center center}.about-standards{padding-bottom:90px}.about-section-heading{text-align:left;margin-bottom:42px}.about-section-heading h2{font-size:46px}.standard-cards article{min-height:280px}.about-belief{padding-top:84px;padding-bottom:84px}.belief-heading{margin-bottom:58px}.belief-heading h2{font-size:62px}.belief-list article{grid-template-columns:42px 1fr;padding:24px 0 28px}.belief-list h3{font-size:30px}.about-delivery{padding-top:90px;padding-bottom:88px}.delivery-grid h2{font-size:62px}.delivery-grid p{font-size:16px}.delivery-facts{margin-top:72px}.delivery-facts strong{font-size:72px}}
